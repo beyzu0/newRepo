@@ -6,12 +6,21 @@
     <title>ilk web sayfam günlüğüm</title>
     
 </head>
-<body>
+<body style="background-color: rgb(236, 173, 241);" >
      <h1> <span style="color:rgb(73, 13, 130)"> Merhaba Günlük </span> </h1>
     <h2><span style="color:rgb(137, 15, 137)">25.02.2025 Salı</span></h2>
-    <p><spans style="color:rgb(15, 61, 142)">Bugün okula gittim. Derslerim öğlene kadardı sonra eve geldim uyudum uyandım ve bu web sayfasını yapmayı öğreniyorum.</span></p>
+    <p><span style="color:rgb(15, 61, 142)">Bugün okula gittim. Derslerim öğlene kadardı sonra eve geldim uyudum uyandım ve bu web sayfasını yapmayı öğreniyorum.</span></p>
         <h1><span style="color: rgb(0, 44, 89);"> 26.02.2025  </span></h1>
         <p><span style="color: blueviolet;">Bugün Ayşenle waffle yedik eve geldim. </span></p>
+        <style>
+        #message { color: rgb(50, 90, 236);background-color: rgb(245, 156, 217);  } 
+        #date { color: rgb(123, 0, 255); background-color: rgb(242, 255, 127);  }
+        #submit { color: blueviolet; background-color: rgb(208, 254, 128);  }
+        form { width: 610px;margin: auto; }
+        body { text-align: center;margin: auto; }
+        
+        </style>
+
 
         <form method="post" action="cat.html">
         <label for="date">Tarih Seçiniz</label>
@@ -21,7 +30,7 @@
         <br>
         <textarea name="message" id="message" rows="20" cols="80"> 
         </textarea>
-        <button type="submit">Gönder</button>
+        <button type="submit" id="submit" >Gönder</button>
     </form>
         <br>
         <img src="images\indir.jpg" alt="çiçek" width="200" >
